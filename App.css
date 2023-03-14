@@ -1,0 +1,43 @@
+body {
+  overflow-x: hidden;
+  background-color: #f7f7fc;
+}
+
+* {
+  font-family: "Assistant";
+}
+/* .App {
+  text-align: center;
+  position: relative;
+  background-color: #f7f7fc;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+} */
+.sidebar-sections {
+  display: flex;
+  flex-direction: row;
+
+}
+.sidebar-component {
+  display: flex;
+  flex: 1.5;
+  height: 100%;
+  background-image: white;
+}
+.all-components {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 8.5;
+  justify-content: flex-end;
+  padding: 30px;
+  align-items: flex-start;
+  padding: 5px;
+  margin: 0;
+}
+
+.endusercomponent{
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
